@@ -69,12 +69,11 @@ body:
       placeholder: Ticket#12345678
     validations:
       required: false
-  # - type: checkboxes
-  #   id: bug-confirm
-  #   attributes:
-  #     label: Test
-  #     options:
-  #       - no
-  #       - yes
-  #   validations:
-  #     required: true
+  - type: dropdown
+    id: bug-confirm
+    attributes:
+      label: I'm sure this is a bug and no feature request or a general question
+      options:
+        - yes
+    validations:
+      required: true
