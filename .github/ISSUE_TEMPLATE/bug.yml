@@ -72,8 +72,7 @@ body:
   - type: checkboxes
     id: bug-confirm
     attributes:
-      label: |
-        Yes I'm sure this is a bug and no feature request or a general question
+      label: Test
       options:
         - no
         - yes
