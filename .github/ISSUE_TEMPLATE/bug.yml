@@ -69,12 +69,12 @@ body:
       placeholder: Ticket#12345678
     validations:
       required: false
-  - type: checkboxes
-    id: bug-confirm
-    attributes:
-      label: Test
-      options:
-        - no
-        - yes
-    validations:
-      required: true
+  # - type: checkboxes
+  #   id: bug-confirm
+  #   attributes:
+  #     label: Test
+  #     options:
+  #       - no
+  #       - yes
+  #   validations:
+  #     required: true
