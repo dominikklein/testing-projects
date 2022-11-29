@@ -13,7 +13,6 @@ body:
         👉 Development Questions
         👉 Technical Questions (assistance for non paid / community)
 
-
         If you think you hit a bug, please continue:
 
         👉 Search existing issues and the CHANGELOG.md for your issue - there might be a solution already
@@ -23,19 +22,7 @@ body:
         👉 Don't remove the template - otherwise we will close the issue without further comments
         👉 Ask questions about Zammad configuration and usage at our mailinglist. See: https://zammad.org/participate
 
-
         Note: We always do our best. Unfortunately, sometimes there are too many requests and we can't handle everything at once. If you want to prioritize/escalate your issue, you can do so by means of a support contract (see https://zammad.com/pricing#selfhosted).
-  - type: input
-    id: bug-used-zammad-version
-    attributes:
-      - label: Used Zammad Version
-        description: Please provide the used zammad version
-        placeholder: 5.3
-      - label: Test
-        description: testing
-        placeholder: 123
-    validations:
-      required: true
   - type: input
     id: bug-used-zammad-version
     attributes:
@@ -44,3 +31,11 @@ body:
       placeholder: 5.3
     validations:
       required: true
+  # - type: input
+  #   id: bug-used-zammad-version
+  #   attributes:
+  #     label: Used Zammad Version
+  #     description: Please provide the used zammad version
+  #     placeholder: 5.3
+  #   validations:
+  #     required: true
