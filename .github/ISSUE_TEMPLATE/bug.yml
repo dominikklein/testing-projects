@@ -53,23 +53,23 @@ body:
     validations:
       required: true
   - type: textarea
-    id: bug-actual-behavior
+    id: bug-actual-behaviour
     attributes:
-      label: Actual behavior
+      label: Actual behaviour
       description: Describe the actual behaviour.
     validations:
       required: true
   - type: textarea
-    id: bug-expected-behavior
+    id: bug-expected-behaviour
     attributes:
-      label: Expected behavior
+      label: Expected behaviour
       description: Describe the expected behaviour.
     validations:
       required: true
   - type: textarea
     id: bug-steps-reproduction
     attributes:
-      label: Steps to reproduce the behavior
+      label: Steps to reproduce the behaviour
     validations:
       required: true
   - type: checkboxes
