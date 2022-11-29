@@ -31,9 +31,9 @@ body:
     validations:
       required: true
   - type: textarea
-    id: bug-additional-env-information
+    id: bug-env-information
     attributes:
-      label: Additional Environment
+      label: Environment
       value: |
         • Installation method: [e.g. source, package]
         • Operating system (if you're unsure: `cat /etc/os-release` ): [e.g. debian 10.4, ubuntu 20.04]
