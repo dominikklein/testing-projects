@@ -45,13 +45,23 @@ body:
       placeholder: source, package, ...
     validations:
       required: true
-  - type: input
-    id: bug-installation-method
+  - type: textarea
+    id: bug-env-information
     attributes:
-      label: Installation method
-      placeholder: source, package, ...
+      label: Environment
+      value: |
+        • Database + version:  [e.g. postgresql 9.3, mysql 5.7, mariadb 10.3]
+        • Browser + version: [e.g. chrome 83, safari 14, firefox 105]
+        • Elasticsearch version: [e.g. 7.17]
     validations:
       required: true
+  - type: input
+    id: bug-support-ticket
+    attributes:
+      label: Support Ticket
+      placeholder: Ticket#
+    validations:
+      required: false
   - type: textarea
     id: bug-actual-behaviour
     attributes:
