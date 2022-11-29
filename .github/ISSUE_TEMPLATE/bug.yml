@@ -27,7 +27,7 @@ body:
     id: bug-used-zammad-version
     attributes:
       label: Used Zammad Version
-      placeholder: 5.3
+      placeholder: '5.3'
     validations:
       required: true
   - type: input
@@ -75,6 +75,7 @@ body:
   - type: checkboxes
     id: bug-confirm
     attributes:
-      label: Yes I'm sure this is a bug and no feature request or a general question.
-    validations:
-      required: true
+      label: Is this a bug?
+      options:
+        - label: Yes I'm sure this is a bug and no feature request or a general question.
+          required: true
