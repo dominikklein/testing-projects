@@ -73,7 +73,6 @@ body:
     id: bug-confirm
     attributes:
       label: I'm sure this is a bug and no feature request or a general question
-      value: 'no'
       options:
         - 'no'
         - 'yes'
